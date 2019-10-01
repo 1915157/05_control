@@ -9,11 +9,20 @@ int main(int argc, char *argv[]) {
 	scanf("%d", &input);
 	
 	if (input > 0)
-		printf("positive\n");
+	{	
+	printf("positive\n");
+	}	
 		
-	else
-		printf("non-positive\n");
+	else if (input < 0)
+	{
+		printf("negative\n");
+	}
 	
+	else
+	{ 
+	printf("zero\n");
+	}
+		
 	return 0;
 	
 }
