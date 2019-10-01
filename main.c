@@ -5,16 +5,14 @@
 
 int main(int argc, char *argv[]) {
 	int input;
-	
 	printf("input a number : ");
 	scanf("%d", &input);
 	
-	if (input>0)
+	if (input > 0)
 		printf("positive\n");
 	else
 		printf("non-positive\n");
 	
 	return 0;
-	
 	
 }
