@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 // op05_01
 int main(int argc, char *argv[]) {
 	int input;
@@ -17,10 +20,10 @@ int main(int argc, char *argv[]) {
 		
 	return 0;
 	
-
+}
 
 // op05_02
-
+int main(int argc, char *argv[]) {
 	int input;
 	
 	printf("input a number : ");
@@ -38,12 +41,12 @@ int main(int argc, char *argv[]) {
 		
 	return 0;
 	
-
+}
 
 
 
 // op05_03
-
+int main(int argc, char *argv[]) {
 	int input;
 	printf("input a number : ");
 	scanf("%d", &input);
@@ -65,12 +68,12 @@ int main(int argc, char *argv[]) {
 		
 	return 0;
 	
-
+}
 
 
 
 // op05_04
-
+int main(int argc, char *argv[]) {
 	int i=0;
 	int meter;
 	
@@ -80,19 +83,19 @@ int main(int argc, char *argv[]) {
 		i++;
 	}
 	return 0;
-
+}
 
 
 // op05_05
-
+int main(int argc, char *argv[]) {
 	int i;
 	for (i=0; i<10; i++)
 		printf("Hello World!\n");
-
+}
 
 
 // op05_06
-
+int main(int argc, char *argv[]) {
 	
 	char c;
 	int num = 0;
@@ -110,12 +113,12 @@ int main(int argc, char *argv[]) {
 	
 	printf("the number of digits is : %i\n", num);
 	return 0;
-
+}
 			
 
 
 // op05_07
-
+int main(int argc, char *argv[]) {
 	
 	int answer = 50;
 	int input;
@@ -142,4 +145,7 @@ int main(int argc, char *argv[]) {
 	return 0;
 	
 }
-	
+
+				
+			
+		
